@@ -129,6 +129,7 @@ This code:
  
  ## 12_RNA_script_mod_MS
  It is modified code from https://github.com/BioinformaticsFMRP/PanCanStem_Web which was used for analysis.
+ - Added different function to log into synapse, function used by aythors didn't work.
 - In this code I had to add few lines of code which converts data to proper format, because function which had to do it didn't work.
 - I added also for loop to read multipple files from specified directory to perform analysis for many files without changeing path to file for every single file. 
 - Added functionality which creates required folder to store results of performed analysis.
