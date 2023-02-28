@@ -2,7 +2,7 @@ library(gelnet)
 library(dplyr)
 library(biomaRt)
 library(synapser)
-synLogin("Smolik", "Mucosolvan2")
+synLogin("login", "password")
 
 
 genes2hugo <- function( v, srcType = "ensembl_gene_id" )
