@@ -30,7 +30,7 @@ This script takes results I got after using programm, authors of program results
 
 Results were ok so I starded prepering my own data sets to perform analysis on RNAseq data from 2 cancer cell lines (SKEMS and H2073) and oncological patients (Czerniak).
 
-> 1_H2073_SKMES_PrepareData
+## 1_H2073_SKMES_PrepareData
 This script takes csv files for SKMES and H2073 and:
 ~def prepare_data(data, file_name):
   - create new column 'gene_id', using values from columns 'Gene_Symbol' and 'Gene_ID',
@@ -44,7 +44,7 @@ This script takes csv files for SKMES and H2073 and:
   - save created dataframe as new .tsv file,
   (At the end there will be 4 folders: FPKM, TPM, FPKM_MEAN, TPM_MEAN, in each folder there will be 5 files for H2073 and 5 files for SKMES)
   
- > 2_CombineStemnesResults
+ ## 2_CombineStemnesResults
  After preparing so many data I wanted so see how deleting different number of rowas and how using mean value for samples will affect results
  I wanted to merge all files for H2073 and SKMES data, 
  This script read files created by R program and merge them.
