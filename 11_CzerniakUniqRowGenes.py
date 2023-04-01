@@ -12,5 +12,5 @@ df.dropna(subset=['gene_id'], inplace=True)
 # Sort the DataFrame based on the 'gene_id' column in ascending order
 df = df.sort_values(by=['gene_id'], ascending=True)
 print(df.head())
-df.to_csv('data/Czerniak/CzerniakReadyForStemnesScore/WithoutMultipleGeneNames_Ready_Uniq.tsv', sep = '\t', index = False)
+df.to_csv('data/CzerniakData/CzerniakReadyForStemnesScore/WithoutMultipleGeneNames_Ready_Uniq.tsv', sep = '\t', index = False)
 
